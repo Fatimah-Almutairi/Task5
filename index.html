@@ -32,7 +32,6 @@
       //--------------------ADD Class circle to allboxes---------------
       var circleBtn = document.querySelector(".btn-circle")
       var allboxes = document.querySelectorAll(".box")
-      //Write code here
       circleBtn.addEventListener("click", function(){
           for (const element of allboxes){
           element.classList.add("circle")
@@ -42,7 +41,6 @@
 
       //---------------------Remove Class circle from allboxes---------
       var resetBtn = document.querySelector(".btn-rest")
-      //Write code here
       resetBtn.addEventListener("click", function(){
           for (const element of allboxes){
               element.classList.remove("circle")
@@ -52,7 +50,6 @@
       
       //---------------------Toggle Class circle -----------------------
       var toggleBtn = document.querySelector(".btn-toggle")
-      //Write code here
       toggleBtn.addEventListener("click", function(){
           for (const element of allboxes){
               element.classList.toggle("circle")
